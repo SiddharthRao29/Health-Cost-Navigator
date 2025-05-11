@@ -1,2 +1,2 @@
 # Health-Cost-Navigator
-Data Engineering project to collect, tranform and store health care data
+Data Engineering project to collect, transform and store health care data
