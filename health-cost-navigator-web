@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health-Cost Navigator Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #0a5c74;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    .link {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 100%;
+      max-width: 900px;
+      margin: 1rem auto;
+      display: block;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Health-Cost Navigator</h1>
+    <p><strong>Group Project</strong> | Feb 2025 – May 2025 | University of Texas at Dallas</p>
+  </header>
+
+  <div class="section">
+    <h2>Project Overview</h2>
+    <p>
+      Health-Cost Navigator is a comprehensive data engineering and analytics initiative aimed at improving U.S. healthcare price transparency.
+      The project focused on collecting, transforming, and visualizing hospital price data across Charlotte, Chicago, and Las Vegas.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Key Contributions</h2>
+    <ul>
+      <li>Processed over <strong>10 million records</strong> using an end-to-end ETL pipeline.</li>
+      <li>Parsed and cleaned JSON data to structured CSV and transformed wide-format data to long-format for modeling.</li>
+      <li>Leveraged <strong>Snowflake</strong> for cloud-based data warehousing and transformations.</li>
+      <li>Developed a <strong>Streamlit dashboard</strong> for interactive analysis by hospital, treatment, CPT code, and payer.</li>
+      <li>Enabled comparative pricing insights and hospital benchmarking across metro regions.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Tech Stack</h2>
+    <p>Python, Snowflake, MongoDB, Streamlit, SQL, Excel, JSON</p>
+  </div>
+
+  <div class="section">
+    <h2>Visual Insights</h2>
+    <img src="HCN1.png" alt="Insurance Coverage by Payer">
+    <img src="HCN2.png" alt="Average Standard Charge by Insurance Provider">
+    <img src="HCN3.png" alt="Healthcare Cost Explorer Overview">
+    <img src="HCN4.png" alt="Top Cities by Average Standard Charge">
+    <img src="HCN5.png" alt="Hospital Price Variation Summary">
+    <img src="HCN6.png" alt="Hospital Rankings by Price Consistency">
+    <img src="HCN7.png" alt="Price Variation by City Compared to State Average">
+  </div>
+
+  <div class="section">
+    <h2>Resources</h2>
+    <p>
+      <a class="link" href="https://github.com/PunyaSrivalli/Health-Cost-Navigator" target="_blank">GitHub Repository</a><br>
+      <a class="link" href="https://www.canva.com/design/DAGmo2xI3aQ/l0nHTvBpnYNhejDFK-GzZw/edit" target="_blank">Dashboard Mockup (Canva)</a>
+    </p>
+  </div>
+</body>
+</html>
